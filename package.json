@@ -12,5 +12,21 @@
     "versionControlTool": "git",
     "buildTool": "gradle",
     "loggingLevel": "info"
+  },
+  "bin": {
+    "dof-lib-activity-step-view-overlay": "./bin/run.js"
+  },
+  "oclif": {
+    "bin": "dof-lib-activity-step-view-overlay",
+    "commands": "./dist/commands",
+    "dirname": "dof-lib-activity-step-view-overlay",
+    "topicSeparator": " "
+  },
+  "dependencies": {
+    "@oclif/core": "^4.0.19"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.47",
+    "ts-node": "^10.9.2"
   }
 }
