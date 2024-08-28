@@ -1,0 +1,16 @@
+{
+  "name": "dof-lib-activity-step-view-overlay",
+  "version": "0.0.0",
+  "description": "DOF Activity Step image overlay views library",
+  "author": "Alexandria Little",
+  "license": "CC-BY-SA-4.0",
+  "packageManager": "npm",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "m30pm": {
+    "versionControlTool": "git",
+    "buildTool": "gradle",
+    "loggingLevel": "info"
+  }
+}
